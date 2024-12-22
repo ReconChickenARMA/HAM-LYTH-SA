@@ -1,0 +1,23 @@
+
+loadScreen = "cvo\img\cvo_ham_title.paa";
+author = "Overlord Zorn";
+onLoadName = "CVO Lythium Standalone";
+onLoadMission = "CVO Lythium Standalone";
+enabledebugconsole = 1;
+
+
+class CfgFunctions {
+};
+
+
+respawn = 3;
+respawnDelay = 10;
+respawnDialog = 0;
+respawnOnStart = 0;
+respawnTemplates[] = {"Tickets","Counter"};
+
+// Disable BI wreck system (H&M handle it internally)
+wreckManagerMode = 0;
+corpseManagerMode = 0;
+
+disabledAI = 1;
